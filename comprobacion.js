@@ -18,6 +18,7 @@ function validacionExpre() {
     
     if (password.value.length < 8) {
         window.alert('La contraseña no cumple con el minimo carcter requerido');
+        console.log('La contraseña no cumple con el minimo carcter requerido.');
     
         return false;
       }
